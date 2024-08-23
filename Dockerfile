@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11-jdk-alpine
+FROM eclipse-temurin:11-jdk-focal
 RUN apk update \
     && apk add  unzip \
     && apk add curl \
